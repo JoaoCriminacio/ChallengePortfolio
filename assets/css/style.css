@@ -1,0 +1,561 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Raleway", sans-serif;
+    color: #464646;
+}
+
+.container{
+    max-width: 1160px;
+    margin: 0 auto;
+}
+
+/* HEADER */
+
+header {
+    padding: 1.25rem 1.25rem 0 1.25rem;
+    margin-bottom: 5.8rem;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .brand {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+header .brand img {
+    width: 1.5rem;
+}
+
+header .brand p {
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1rem;
+}
+
+header nav ul {
+    display: flex;
+    list-style-type: none;
+    gap: 2rem;
+}
+
+header nav li {
+    line-height: 2rem;
+}
+
+header nav a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: #464646;
+    transition: 0.3s;
+}
+
+header nav a:hover {
+    border-bottom: 1px solid #464646;
+}
+
+header nav p {
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+/* MAIN */
+/* Main - Apresentation */
+.apresentation {
+    display: flex;
+    width: 100%;
+    gap: 4rem;
+}
+
+.apresentation-content {
+    width: 70%;
+}
+
+.apresentation-content h2 {
+    font-weight: 700;
+    font-size: 3.25rem;
+}
+
+.apresentation-content p {
+    padding: 1rem 0;
+    font-size: 1.3rem;
+}
+
+.social-medias {
+    display: flex;
+    gap: 2rem;
+}
+
+.social-medias a {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    text-decoration: none;
+    font-size: 1rem;
+    color: #464646;
+    padding: 0.25rem;
+    transition: 0.3s;
+}
+
+.social-medias a:hover {
+    background-color: rgba(102, 102, 102, 0.2);
+    border-radius: 0.25rem;
+}
+
+.apresentation-image {
+    width: 30%;
+}
+
+.apresentation-image img{
+    width: 284px;
+    height: 284px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Main - About me */
+
+.aboutme {
+    width: 70%;
+}
+
+.aboutme h3 {
+    margin-top: 2rem;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.aboutme p {
+    font-size: 1rem;
+    padding: 1rem 0;
+}
+
+/* Main - Skills */
+
+.skills h3 {
+    margin: 3rem 0;
+    font-weight: 700;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.tech-logos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tech-logos figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 0.5rem;
+    width: 10%;
+}
+
+.tech-logos img {
+    width: 2.2rem;
+    height: 3.1rem;
+    object-fit: contain;
+}
+
+.tech-logos figcaption {
+    font-weight: 700;
+}
+
+/* Main - Hobbies */
+
+.hobbies h3 {
+    margin: 5.5rem 0 3rem 0;
+    font-weight: 700;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.hobbies-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hobbies-content figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 0.5rem;
+    width: 10%;
+}
+
+.hobbies-content img {
+    width: 2.2rem;
+    height: 3.1rem;
+    object-fit: contain;
+}
+
+.hobbies-content figcaption {
+    font-weight: 700;
+}
+
+/* Main - Formation */
+
+.formations h3 {
+    margin: 5.5rem 0 3rem 0;
+    font-weight: 700;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.formations-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.formations-content figure {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 33%;
+}
+
+.formations-content img {
+    width: 100%;
+    height: 5.6rem;
+    object-fit: contain;
+}
+
+.formations-content figcaption {
+    align-self: flex-start;
+}
+
+.formations-content .formation-title {
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.formations-content .formation-year {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+/* Main - Experiece | Projects */
+
+.experiences h3 {
+    margin: 5.5rem 0 3rem 0;
+    font-weight: 700;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.experiences-content {
+    display: flex;
+    flex-direction: column;
+    gap: 3.3rem;
+}
+
+.experience-project {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.experience-project img {
+    width: 70%;
+    height: auto;
+    object-fit: contain;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+.project-information {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.project-title {
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.project-small-description {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.project-buttons {
+    display: flex;
+    gap: 1rem;
+}
+
+.button-repository {
+    text-decoration: none;
+    font-size: 1rem;
+    color: #2A7AE4;
+    padding: 1rem;
+    background-color: #ffffff;
+    border: 1px solid #2A7AE4;
+}
+
+.button-demo {
+    text-decoration: none;
+    font-size: 1rem;
+    color: #ffffff;
+    padding: 1rem;
+    background-color: #2A7AE4;
+    border: 1px solid #2A7AE4;
+}
+
+/* Main - Contact */
+
+.contact-content {
+    width: 100%;
+    display: flex;
+    margin-top: 4rem;
+}
+
+.contact-content img{
+    width: 40%;
+    padding: 0 5%;
+    height: auto;
+    object-fit: contain;
+}
+
+.contact-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-text h3 {
+    font-weight: 700;
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+
+.contact-text p {
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.contact-text form {
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+    width: 100%;
+}
+
+.contact-text .contact-field,
+.contact-text .contact-textarea-field {
+    margin-bottom: 1.5rem;
+    border: none;
+    border-bottom: 1px solid #C8C8C8;
+    color: #000000;
+    font-size: 1rem;
+    padding-left: 0.75rem;
+    transition: all 0.3s ease;
+}
+
+.contact-text .contact-field::placeholder,
+.contact-text .contact-textarea-field::placeholder {
+    color: #C8C8C8;
+    transition: all 0.3s ease;
+}
+
+.contact-text .contact-field{
+    padding: 1rem 0 1rem 0.75rem;
+    height: 2.25rem;
+}
+
+.contact-text .contact-textarea-field {
+    padding-top: 1rem;
+    resize: none;
+    min-height: 4.75rem;
+}
+
+.contact-text button {
+    padding: 1rem;
+    color: #ffffff;
+    background-color: #2A7AE4;
+    width: 35%;
+    border: none;
+    cursor: pointer;
+}
+
+/* FOOTER */
+
+footer .footer-content {
+    margin: 4rem 0 1rem 0;
+    font-size: 1rem;
+    font-weight: 500;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 705px;
+    }
+
+    header nav a {
+        display: none;
+    }
+
+    h2, h3 {
+        font-size: 1.375rem;
+    }
+
+    figcaption {
+        font-size: 1rem;
+    }
+
+    .apresentation {
+        gap: 0.5rem;
+    }
+    
+    .apresentation-content p {
+        padding: 0.5rem 0;
+        font-size: 1rem;
+    }
+
+    .apresentation-image {
+        align-content: center;
+    }
+
+    .apresentation-image img{
+        width: 206px;
+        height: 206px;
+    }
+
+    .aboutme {
+        width: 100%;
+    }
+
+    .aboutme p,
+    .formation-year {
+        font-size: 0.875rem;
+    }
+
+    .experience-project {
+        flex-direction: column;
+        gap: 1.2rem;
+    }
+
+    .experience-project img {
+        order: 1;
+        width: 100%;
+    }
+
+    .project-information {
+        align-self: flex-start;
+        order: 2;
+    }
+
+    .contact-content img {
+        display: none;
+    }
+
+    .contact-text {
+        width: 100%;
+    }
+}
+
+@media (max-width: 430px) {
+    .container {
+        max-width: 390px;
+    }
+
+    header .container {
+        max-width: 340px;
+    }
+
+    header {
+        padding: 0.5rem 0.5rem 0 0.5rem;
+        margin-bottom: 2rem;
+    }
+
+    header .brand {
+        width: 100%;
+        justify-content: center;
+    }
+
+    header nav ul {
+        display: none;
+    }
+
+    .apresentation {
+        flex-direction: column;
+    }
+
+    .apresentation .apresentation-content {
+        order: 2;
+        width: 100%;
+    }
+
+    .apresentation .apresentation-image {
+        order: 1;
+    }
+
+    .apresentation-image img{
+        width: 158px;
+        height: 158px;
+    }
+
+    .social-medias {
+        gap: 0.5rem;
+    }
+
+    .tech-logos {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+        justify-items: center;
+    }
+
+    .hobbies-content {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+        justify-items: center;
+    }
+
+    .formations-content {
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .formations-content figure {
+        width: 100%;
+    }
+
+    .formations-content img {
+        width: 80%;
+        align-self: center;
+    }
+
+    .contact-text h3 {
+        margin-top: 1rem;
+    }
+}
+
+@media (max-width: 375px) {
+    .container {
+        max-width: 340px;
+    }
+
+    .social-medias {
+        flex-wrap: wrap;
+    }
+}
