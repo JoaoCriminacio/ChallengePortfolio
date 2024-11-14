@@ -66,6 +66,7 @@ header nav a:hover {
 header nav p {
     font-weight: 700;
     font-size: 1rem;
+    line-height: 2rem;
 }
 
 /* MAIN */
@@ -148,12 +149,12 @@ header nav p {
     text-align: center;
 }
 
-.tech-logos {
+.skills-content {
     display: flex;
     justify-content: space-between;
 }
 
-.tech-logos figure {
+.skills-content figure {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -162,13 +163,13 @@ header nav p {
     width: 10%;
 }
 
-.tech-logos img {
+.skills-content img {
     width: 2.2rem;
     height: 3.1rem;
     object-fit: contain;
 }
 
-.tech-logos figcaption {
+.skills-content figcaption {
     font-weight: 700;
 }
 
@@ -514,19 +515,20 @@ footer .footer-content {
 
     .social-medias {
         gap: 0.5rem;
+        flex-wrap: wrap;
     }
 
-    .tech-logos {
+    .skills-content {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        gap: 1rem;
+        gap: 2rem;
         justify-items: center;
     }
 
     .hobbies-content {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        gap: 1rem;
+        gap: 2rem;
         justify-items: center;
     }
 
@@ -553,9 +555,5 @@ footer .footer-content {
 @media (max-width: 375px) {
     .container {
         max-width: 340px;
-    }
-
-    .social-medias {
-        flex-wrap: wrap;
     }
 }
