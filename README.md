@@ -5,7 +5,7 @@ Atividade final do curso Desenvolvimento de Aplicações para WEB da faculdade U
 </p>
 
 <p align="center">
-  <img alt="Layout Portfolio" src="./assets/images/layout-projeto.png">
+  
 </p>
 
 <br>
