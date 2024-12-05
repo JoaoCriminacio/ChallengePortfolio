@@ -1,6 +1,6 @@
 <h1 align="center"> Portfolio </h1>
 
-<p align = center>Atividade final do curso <strong>Desenvolvimento de Aplicações para WEB</strong> da faculdade Unimater. Este projeto representa um portfólio profissional para destacar minhas habilidades, experiências e projetos.</p>
+<p align = center>Desafio do curso <strong>Praticando Front End - Challenge Portfólio</strong> da Alura. Este projeto representa um portfólio profissional para destacar minhas habilidades, experiências e projetos.</p>
 
 <p align="center">
   <img alt="Layout Portfolio" src="./assets/images/layout-projeto.png">
