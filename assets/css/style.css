@@ -8,6 +8,10 @@ body {
     color: #464646;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .container{
     max-width: 1160px;
     margin: 0 auto;
@@ -18,6 +22,10 @@ body {
 header {
     padding: 1.25rem 1.25rem 0 1.25rem;
     margin-bottom: 5.8rem;
+    position: sticky;
+    top: 0;
+    z-index: 9;
+    background-color: #fff;
 }
 
 header .container {
@@ -70,6 +78,9 @@ header nav p {
 }
 
 /* MAIN */
+section {
+    padding-top: 1rem;
+}
 /* Main - Apresentation */
 .apresentation {
     display: flex;
@@ -176,7 +187,7 @@ header nav p {
 /* Main - Hobbies */
 
 .hobbies h3 {
-    margin: 5.5rem 0 3rem 0;
+    margin: 4.5rem 0 3rem 0;
     font-weight: 700;
     font-size: 2rem;
     text-align: center;
@@ -209,7 +220,7 @@ header nav p {
 /* Main - Formation */
 
 .formations h3 {
-    margin: 5.5rem 0 3rem 0;
+    margin: 4.5rem 0 3rem 0;
     font-weight: 700;
     font-size: 2rem;
     text-align: center;
@@ -250,7 +261,7 @@ header nav p {
 /* Main - Experiece | Projects */
 
 .experiences h3 {
-    margin: 5.5rem 0 3rem 0;
+    margin: 4.5rem 0 3rem 0;
     font-weight: 700;
     font-size: 2rem;
     text-align: center;
