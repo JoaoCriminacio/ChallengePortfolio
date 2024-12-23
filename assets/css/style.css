@@ -6,6 +6,7 @@
 body {
     font-family: "Raleway", sans-serif;
     color: #464646;
+    padding-top: 5.8rem;
 }
 
 html {
@@ -20,10 +21,11 @@ html {
 /* HEADER */
 
 header {
+    width: 100%;
     padding: 1.25rem 1.25rem 0 1.25rem;
-    margin-bottom: 5.8rem;
-    position: sticky;
+    position: fixed;
     top: 0;
+    left: 0;
     z-index: 9;
     background-color: #fff;
 }
@@ -438,7 +440,6 @@ footer .footer-content {
 
     .apresentation {
         gap: 0.5rem;
-        align-items: center;
     }
     
     .apresentation-content p {
@@ -449,6 +450,7 @@ footer .footer-content {
     .apresentation-image img{
         width: 186px;
         height: 186px;
+        align-self: center;
     }
 
     .aboutme {
