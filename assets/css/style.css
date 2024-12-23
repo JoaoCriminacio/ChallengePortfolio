@@ -128,8 +128,8 @@ section {
 }
 
 .apresentation-image img{
-    width: 284px;
-    height: 284px;
+    width: 274px;
+    height: 274px;
     border-radius: 50%;
     object-fit: cover;
 }
@@ -420,6 +420,10 @@ footer .footer-content {
         max-width: 705px;
     }
 
+    header {
+        width: 100%;
+    }
+
     header nav a {
         display: none;
     }
@@ -434,6 +438,7 @@ footer .footer-content {
 
     .apresentation {
         gap: 0.5rem;
+        align-items: center;
     }
     
     .apresentation-content p {
@@ -441,13 +446,9 @@ footer .footer-content {
         font-size: 1rem;
     }
 
-    .apresentation-image {
-        align-content: center;
-    }
-
     .apresentation-image img{
-        width: 206px;
-        height: 206px;
+        width: 186px;
+        height: 186px;
     }
 
     .aboutme {
